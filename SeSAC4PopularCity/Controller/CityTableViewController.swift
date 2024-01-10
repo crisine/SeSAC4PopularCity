@@ -36,11 +36,7 @@ class CityTableViewController: UITableViewController, UICollectionViewDelegate, 
         cityCollectionView.dataSource = self
         
         let layout = UICollectionViewFlowLayout()
-        layout.itemSize = CGSize(width: 160, height: 220)
-        layout.minimumLineSpacing = 5
-        layout.minimumInteritemSpacing = 0
-        layout.sectionInset = UIEdgeInsets(top: 0, left: 30, bottom: 0, right: 30)
-        layout.scrollDirection = .vertical
+        layout.setupLayout()
         
         cityCollectionView.collectionViewLayout = layout
     }

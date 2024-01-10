@@ -13,13 +13,14 @@ class CityViewController: UIViewController, UICollectionViewDelegate, UICollecti
     @IBOutlet weak var cityCollectionView: UICollectionView!
     
     let shared = CityInfo()
+    let citySegmentTitles = ["모두", "국내", "해외"]
     var cityList: [City] = []
     var visibleCityType: CityType = .alltype
     
     override func viewDidLoad() {
         super.viewDidLoad()
         didSegmentedControlValueChanged(segmentedControl)
-        configureSegmentedControl()
+        segmentedControl.setupSegmentedControl(titles: citySegmentTitles)
 
         let xib = UINib(nibName: "CityCollectionViewCell", bundle: nil)
         cityCollectionView.register(xib, forCellWithReuseIdentifier: "CityCollectionViewCell")
@@ -28,21 +29,11 @@ class CityViewController: UIViewController, UICollectionViewDelegate, UICollecti
         cityCollectionView.dataSource = self
         
         let layout = UICollectionViewFlowLayout()
-        layout.itemSize = CGSize(width: 160, height: 220)
-        layout.minimumLineSpacing = 5
-        layout.minimumInteritemSpacing = 0
-        layout.sectionInset = UIEdgeInsets(top: 8, left: 32, bottom: 0, right: 32)
-        layout.scrollDirection = .vertical
+        layout.setupLayout()
         
         cityCollectionView.collectionViewLayout = layout
         
         cityList = shared.city
-    }
-    
-    func configureSegmentedControl() {
-        segmentedControl.setTitle("모두", forSegmentAt: 0)
-        segmentedControl.setTitle("국내", forSegmentAt: 1)
-        segmentedControl.setTitle("해외", forSegmentAt: 2)
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

@@ -26,9 +26,7 @@ class CityCollectionViewCell: UICollectionViewCell {
         subtitleLabel.textAlignment = .center
         subtitleLabel.textColor = .gray
         
-        imageView.contentMode = .scaleAspectFill
-        imageView.layer.cornerRadius = imageView.frame.width / 2
-        imageView.clipsToBounds = true
+        imageView.setupImageView()
     }
     
     func configureCell(data: City) {

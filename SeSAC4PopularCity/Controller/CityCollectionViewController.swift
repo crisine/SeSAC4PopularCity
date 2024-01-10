@@ -7,8 +7,6 @@
 
 import UIKit
 
-private let reuseIdentifier = "Cell"
-
 class CityCollectionViewController: UICollectionViewController {
 
     var cityList = CityInfo().city
@@ -20,11 +18,7 @@ class CityCollectionViewController: UICollectionViewController {
         collectionView.register(xib, forCellWithReuseIdentifier: "CityCollectionViewCell")
         
         let layout = UICollectionViewFlowLayout()
-        layout.itemSize = CGSize(width: 160, height: 220)
-        layout.minimumLineSpacing = 5
-        layout.minimumInteritemSpacing = 0
-        layout.sectionInset = UIEdgeInsets(top: 0, left: 30, bottom: 0, right: 30)
-        layout.scrollDirection = .vertical
+        layout.setupLayout()
         
         collectionView.collectionViewLayout = layout
     }
