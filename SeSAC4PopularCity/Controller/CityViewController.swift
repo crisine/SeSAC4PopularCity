@@ -7,18 +7,35 @@
 
 import UIKit
 
-class CityViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class CityViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, ViewPresentableProtocol {
     
-    @IBOutlet weak var segmentedControl: UISegmentedControl!
-    @IBOutlet weak var cityCollectionView: UICollectionView!
+    var navigationTitleString: String {
+        get {
+            return "SeSAC TRAVEL"
+        }
+    }
+    var backGroundColor: UIColor {
+        get {
+            return .white
+        }
+    }
+    
+    static var identifier: String = "CityViewController"
     
     let shared = CityInfo()
     let citySegmentTitles = ["모두", "국내", "해외"]
     var cityList: [City] = []
     var visibleCityType: CityType = .alltype
     
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
+    @IBOutlet weak var cityCollectionView: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        configureView()
+    }
+    
+    func configureView() {
         didSegmentedControlValueChanged(segmentedControl)
         segmentedControl.setupSegmentedControl(titles: citySegmentTitles)
 

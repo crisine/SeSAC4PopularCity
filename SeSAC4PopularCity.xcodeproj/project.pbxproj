@@ -24,6 +24,7 @@
 		FA566AE82B4D7F9A00A1C034 /* CityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA566AE72B4D7F9A00A1C034 /* CityTableViewController.swift */; };
 		FA566AEA2B4D82B000A1C034 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA566AE92B4D82B000A1C034 /* CityViewController.swift */; };
 		FA566AF02B4D913C00A1C034 /* CityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA566AEF2B4D913C00A1C034 /* CityType.swift */; };
+		FACB918D2B4ED41300C24CE5 /* ViewPresentableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB918C2B4ED41300C24CE5 /* ViewPresentableProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		FA566AE72B4D7F9A00A1C034 /* CityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewController.swift; sourceTree = "<group>"; };
 		FA566AE92B4D82B000A1C034 /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
 		FA566AEF2B4D913C00A1C034 /* CityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityType.swift; sourceTree = "<group>"; };
+		FACB918C2B4ED41300C24CE5 /* ViewPresentableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPresentableProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		FA566AC22B4D6E1400A1C034 /* SeSAC4PopularCity */ = {
 			isa = PBXGroup;
 			children = (
+				FACB918A2B4ED40200C24CE5 /* Protocol */,
 				FA26F9A82B4EC373009C4BE0 /* Extension */,
 				FA566AE42B4D734900A1C034 /* Controller */,
 				FA566AE12B4D6F1400A1C034 /* Model */,
@@ -129,6 +132,14 @@
 				FA566AE92B4D82B000A1C034 /* CityViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		FACB918A2B4ED40200C24CE5 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				FACB918C2B4ED41300C24CE5 /* ViewPresentableProtocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 				FA566AE32B4D6F4E00A1C034 /* City.swift in Sources */,
 				FA566AEA2B4D82B000A1C034 /* CityViewController.swift in Sources */,
 				FA566AE82B4D7F9A00A1C034 /* CityTableViewController.swift in Sources */,
+				FACB918D2B4ED41300C24CE5 /* ViewPresentableProtocol.swift in Sources */,
 				FA26F9AA2B4EC380009C4BE0 /* ImageViewExtension.swift in Sources */,
 				FA26F9AC2B4ECAA4009C4BE0 /* UICollectionViewFlowLayoutExtension.swift in Sources */,
 				FA566AF02B4D913C00A1C034 /* CityType.swift in Sources */,
