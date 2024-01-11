@@ -49,7 +49,18 @@ class TouristSpotTableViewCell: UITableViewCell,
     func configureCell(data: Travel) {
         titleLabel.text = data.title
         descriptionLabel.text = data.description
-        starLabel.text = "별점 : \(String(data.grade ?? 0))"
+        
+        var starString = ""
+        
+        for i in 1...5 {
+            if Int(data.grade ?? 0) - i < 0 {
+                starString.append("☆")
+            } else {
+                starString.append("★")
+            }
+        }
+        
+        starLabel.text = "\(starString) (\(String(data.grade ?? 0)))"
         favLabel.text = "· 저장 \(convertPlainIntToCommaFormattedString(number: data.save ?? 0))"
         
         if let urlString = data.travel_image {
