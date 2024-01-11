@@ -91,4 +91,11 @@ class CityViewController: UIViewController, UICollectionViewDelegate, UICollecti
         
         cityCollectionView.reloadData()
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        let sb = UIStoryboard(name: "CityDetailView", bundle: nil)
+        let vc = sb.instantiateViewController(withIdentifier: CityDetailViewController.identifier) as! CityDetailViewController
+        navigationController?.pushViewController(vc, animated: true)
+    }
 }

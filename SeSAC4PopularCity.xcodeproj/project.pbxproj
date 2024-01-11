@@ -25,6 +25,20 @@
 		FA566AEA2B4D82B000A1C034 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA566AE92B4D82B000A1C034 /* CityViewController.swift */; };
 		FA566AF02B4D913C00A1C034 /* CityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA566AEF2B4D913C00A1C034 /* CityType.swift */; };
 		FACB918D2B4ED41300C24CE5 /* ViewPresentableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB918C2B4ED41300C24CE5 /* ViewPresentableProtocol.swift */; };
+		FAD33C8A2B50266200BAFFEE /* CityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD33C892B50266200BAFFEE /* CityDetailViewController.swift */; };
+		FAD33C8D2B5028B600BAFFEE /* TouristSpotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD33C8B2B5028B600BAFFEE /* TouristSpotTableViewCell.swift */; };
+		FAD33C8E2B5028B600BAFFEE /* TouristSpotTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD33C8C2B5028B600BAFFEE /* TouristSpotTableViewCell.xib */; };
+		FAD33C942B5028D800BAFFEE /* ADTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD33C922B5028D800BAFFEE /* ADTableViewCell.swift */; };
+		FAD33C952B5028D800BAFFEE /* ADTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD33C932B5028D800BAFFEE /* ADTableViewCell.xib */; };
+		FAD33C992B50292300BAFFEE /* CityDetailView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD33C982B50292300BAFFEE /* CityDetailView.storyboard */; };
+		FAD33C9B2B50298E00BAFFEE /* TravelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD33C9A2B50298E00BAFFEE /* TravelModel.swift */; };
+		FAD33C9D2B5029B800BAFFEE /* Travel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD33C9C2B5029B800BAFFEE /* Travel.swift */; };
+		FAD33C9F2B503EBF00BAFFEE /* ConfigureableTravelCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD33C9E2B503EBF00BAFFEE /* ConfigureableTravelCellProtocol.swift */; };
+		FAD33CA12B504B1500BAFFEE /* TouristSpotView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD33CA02B504B1500BAFFEE /* TouristSpotView.storyboard */; };
+		FAD33CA32B504B2000BAFFEE /* ADView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD33CA22B504B2000BAFFEE /* ADView.storyboard */; };
+		FAD33CA52B50532100BAFFEE /* TouristSpotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD33CA42B50532100BAFFEE /* TouristSpotViewController.swift */; };
+		FAD33CA72B50533400BAFFEE /* ADViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD33CA62B50533400BAFFEE /* ADViewController.swift */; };
+		FAD33CA92B505AD500BAFFEE /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD33CA82B505AD500BAFFEE /* UINavigationControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +61,20 @@
 		FA566AE92B4D82B000A1C034 /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
 		FA566AEF2B4D913C00A1C034 /* CityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityType.swift; sourceTree = "<group>"; };
 		FACB918C2B4ED41300C24CE5 /* ViewPresentableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPresentableProtocol.swift; sourceTree = "<group>"; };
+		FAD33C892B50266200BAFFEE /* CityDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailViewController.swift; sourceTree = "<group>"; };
+		FAD33C8B2B5028B600BAFFEE /* TouristSpotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristSpotTableViewCell.swift; sourceTree = "<group>"; };
+		FAD33C8C2B5028B600BAFFEE /* TouristSpotTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TouristSpotTableViewCell.xib; sourceTree = "<group>"; };
+		FAD33C922B5028D800BAFFEE /* ADTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADTableViewCell.swift; sourceTree = "<group>"; };
+		FAD33C932B5028D800BAFFEE /* ADTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADTableViewCell.xib; sourceTree = "<group>"; };
+		FAD33C982B50292300BAFFEE /* CityDetailView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CityDetailView.storyboard; sourceTree = "<group>"; };
+		FAD33C9A2B50298E00BAFFEE /* TravelModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelModel.swift; sourceTree = "<group>"; };
+		FAD33C9C2B5029B800BAFFEE /* Travel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travel.swift; sourceTree = "<group>"; };
+		FAD33C9E2B503EBF00BAFFEE /* ConfigureableTravelCellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureableTravelCellProtocol.swift; sourceTree = "<group>"; };
+		FAD33CA02B504B1500BAFFEE /* TouristSpotView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TouristSpotView.storyboard; sourceTree = "<group>"; };
+		FAD33CA22B504B2000BAFFEE /* ADView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ADView.storyboard; sourceTree = "<group>"; };
+		FAD33CA42B50532100BAFFEE /* TouristSpotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristSpotViewController.swift; sourceTree = "<group>"; };
+		FAD33CA62B50533400BAFFEE /* ADViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADViewController.swift; sourceTree = "<group>"; };
+		FAD33CA82B505AD500BAFFEE /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +95,7 @@
 				FA26F9A92B4EC380009C4BE0 /* ImageViewExtension.swift */,
 				FA26F9AB2B4ECAA4009C4BE0 /* UICollectionViewFlowLayoutExtension.swift */,
 				FA26F9AD2B4ECEF0009C4BE0 /* SegmentedControlExtension.swift */,
+				FAD33CA82B505AD500BAFFEE /* UINavigationControllerExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -94,6 +123,7 @@
 				FA26F9A82B4EC373009C4BE0 /* Extension */,
 				FA566AE42B4D734900A1C034 /* Controller */,
 				FA566AE12B4D6F1400A1C034 /* Model */,
+				FAD33C962B50290900BAFFEE /* View */,
 				FA566ADA2B4D6E8B00A1C034 /* Collection */,
 				FA566AC32B4D6E1400A1C034 /* AppDelegate.swift */,
 				FA566AC52B4D6E1400A1C034 /* SceneDelegate.swift */,
@@ -110,6 +140,10 @@
 			children = (
 				FA566ADB2B4D6EA700A1C034 /* CityCollectionViewCell.swift */,
 				FA566ADC2B4D6EA700A1C034 /* CityCollectionViewCell.xib */,
+				FAD33C8B2B5028B600BAFFEE /* TouristSpotTableViewCell.swift */,
+				FAD33C8C2B5028B600BAFFEE /* TouristSpotTableViewCell.xib */,
+				FAD33C922B5028D800BAFFEE /* ADTableViewCell.swift */,
+				FAD33C932B5028D800BAFFEE /* ADTableViewCell.xib */,
 			);
 			path = Collection;
 			sourceTree = "<group>";
@@ -117,6 +151,8 @@
 		FA566AE12B4D6F1400A1C034 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FAD33C9C2B5029B800BAFFEE /* Travel.swift */,
+				FAD33C9A2B50298E00BAFFEE /* TravelModel.swift */,
 				FA566ADF2B4D6F1200A1C034 /* CityInfo.swift */,
 				FA566AE22B4D6F4E00A1C034 /* City.swift */,
 				FA566AEF2B4D913C00A1C034 /* CityType.swift */,
@@ -130,6 +166,9 @@
 				FA566AE52B4D735E00A1C034 /* CityCollectionViewController.swift */,
 				FA566AE72B4D7F9A00A1C034 /* CityTableViewController.swift */,
 				FA566AE92B4D82B000A1C034 /* CityViewController.swift */,
+				FAD33C892B50266200BAFFEE /* CityDetailViewController.swift */,
+				FAD33CA42B50532100BAFFEE /* TouristSpotViewController.swift */,
+				FAD33CA62B50533400BAFFEE /* ADViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -138,8 +177,19 @@
 			isa = PBXGroup;
 			children = (
 				FACB918C2B4ED41300C24CE5 /* ViewPresentableProtocol.swift */,
+				FAD33C9E2B503EBF00BAFFEE /* ConfigureableTravelCellProtocol.swift */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		FAD33C962B50290900BAFFEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAD33C982B50292300BAFFEE /* CityDetailView.storyboard */,
+				FAD33CA02B504B1500BAFFEE /* TouristSpotView.storyboard */,
+				FAD33CA22B504B2000BAFFEE /* ADView.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,7 +256,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD33C992B50292300BAFFEE /* CityDetailView.storyboard in Resources */,
+				FAD33C952B5028D800BAFFEE /* ADTableViewCell.xib in Resources */,
+				FAD33C8E2B5028B600BAFFEE /* TouristSpotTableViewCell.xib in Resources */,
+				FAD33CA32B504B2000BAFFEE /* ADView.storyboard in Resources */,
 				FA566AD02B4D6E1600A1C034 /* LaunchScreen.storyboard in Resources */,
+				FAD33CA12B504B1500BAFFEE /* TouristSpotView.storyboard in Resources */,
 				FA566ACD2B4D6E1600A1C034 /* Assets.xcassets in Resources */,
 				FA566ACB2B4D6E1400A1C034 /* Main.storyboard in Resources */,
 				FA566ADE2B4D6EA700A1C034 /* CityCollectionViewCell.xib in Resources */,
@@ -221,17 +276,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA566AC42B4D6E1400A1C034 /* AppDelegate.swift in Sources */,
+				FAD33CA52B50532100BAFFEE /* TouristSpotViewController.swift in Sources */,
 				FA566AE62B4D735E00A1C034 /* CityCollectionViewController.swift in Sources */,
 				FA566AE32B4D6F4E00A1C034 /* City.swift in Sources */,
+				FAD33C9B2B50298E00BAFFEE /* TravelModel.swift in Sources */,
 				FA566AEA2B4D82B000A1C034 /* CityViewController.swift in Sources */,
 				FA566AE82B4D7F9A00A1C034 /* CityTableViewController.swift in Sources */,
+				FAD33CA92B505AD500BAFFEE /* UINavigationControllerExtension.swift in Sources */,
 				FACB918D2B4ED41300C24CE5 /* ViewPresentableProtocol.swift in Sources */,
 				FA26F9AA2B4EC380009C4BE0 /* ImageViewExtension.swift in Sources */,
 				FA26F9AC2B4ECAA4009C4BE0 /* UICollectionViewFlowLayoutExtension.swift in Sources */,
+				FAD33C942B5028D800BAFFEE /* ADTableViewCell.swift in Sources */,
 				FA566AF02B4D913C00A1C034 /* CityType.swift in Sources */,
 				FA26F9AE2B4ECEF0009C4BE0 /* SegmentedControlExtension.swift in Sources */,
+				FAD33C8D2B5028B600BAFFEE /* TouristSpotTableViewCell.swift in Sources */,
+				FAD33C8A2B50266200BAFFEE /* CityDetailViewController.swift in Sources */,
 				FA566ADD2B4D6EA700A1C034 /* CityCollectionViewCell.swift in Sources */,
+				FAD33C9F2B503EBF00BAFFEE /* ConfigureableTravelCellProtocol.swift in Sources */,
+				FAD33C9D2B5029B800BAFFEE /* Travel.swift in Sources */,
 				FA566AE02B4D6F1200A1C034 /* CityInfo.swift in Sources */,
+				FAD33CA72B50533400BAFFEE /* ADViewController.swift in Sources */,
 				FA566AC62B4D6E1400A1C034 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
