@@ -9,7 +9,7 @@ import UIKit
 
 class CityCollectionViewController: UICollectionViewController {
 
-    var cityList = CityInfo().city
+    var cityList = CityInfo.city
     
     override func viewDidLoad() {
         super.viewDidLoad()

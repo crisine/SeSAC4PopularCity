@@ -9,7 +9,7 @@ import UIKit
 
 class CityTableViewController: UITableViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
-    var cityList = CityInfo().city
+    var cityList = CityInfo.city
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return cityList.count
